@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #111;
+}
+
+header {
+    background-color: #003300;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+.intro, .tool {
+    background-color: #fff;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    border-radius: 8px;
+    max-width: 600px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.tool input {
+    padding: 0.5rem;
+    width: 70%;
+    margin-right: 1rem;
+}
+
+.tool button {
+    padding: 0.5rem 1rem;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tool button:hover {
+    background-color: #005fa3;
+}
+
+#resultado {
+    margin-top: 1rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #000;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+}
